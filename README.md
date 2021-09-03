@@ -1,6 +1,7 @@
 ## First Step
 
 Install Python 3.4.0 or later
+Make sure it is added to the Path
 
 ## How works on Windows:
 
