@@ -47,7 +47,7 @@ def isFinished():
 
 
 ########################################## Group By Extentions ########################################
-def control1(name: str, ex: str) -> None:
+def control1(name: str, ex: str) -> None: # ex = extention of file, name = name of file
     from random import random
     if ex != "sessile":
         if not os.path.exists(os.path.join(ex, f"{name}.{ex}")):
@@ -74,7 +74,7 @@ def groupByExtentions(folderPath: str) -> None:
 
 
 ########################################## Group By Create Date ########################################
-def control2(name: str, ex: str, foldername: str) -> None:
+def control2(name: str, ex: str, foldername: str) -> None: # ex = extention of file, name = name of file , foldername = File creation date
     from random import random
     if ex != "sessile":
         if not os.path.exists(os.path.join(foldername, f"{name}.{ex}")):
