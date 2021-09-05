@@ -117,8 +117,8 @@ if __name__ == "__main__":
             note = "Linux systems will be grouped according to the last modified date"
             options = f"1-Group By Extentions\n2-Group By Create Date\n3-Quit"
             print(options)
-            print("*" * len(sys.version), note.center(len(sys.version)),
-                  "Your Python Version Info".center(len(sys.version)), sys.version, "*" * len(sys.version), sep="\n")
+             a=len(note)
+            print("*"*a,note,f"Your Python Version Info:{sys.version[:5]}".center(len(note)),"*"*a,sep="\n")
             option = input("Option:")
             print()
             if option == "1":
